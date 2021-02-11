@@ -1,6 +1,10 @@
 #include <FlexCAN_T4.h>
 
 
+// Dette er lavet i en branch
+
+
+
 // CAN settings
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> can1;  // can1 port
 
