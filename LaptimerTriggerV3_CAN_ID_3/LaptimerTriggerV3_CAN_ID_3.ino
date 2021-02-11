@@ -1,6 +1,5 @@
 #include <FlexCAN_T4.h>
 
-// If Msg0 = Msg0+1 turn beacon output LOW for 20ms, a new msg0+1 should be ignored for the next 500ms then look at the cansniff20 again
 
 // CAN settings
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> can1;  // can1 port
