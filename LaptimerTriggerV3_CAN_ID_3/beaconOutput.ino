@@ -17,7 +17,7 @@ void beaconOutput()
   }
 
 
-  if (beaconPinStatus == 1)
+  if (beaconPinStatus == 0)
   {
     if (millis() - previousMillis_beacon > interval_beacon )
     {

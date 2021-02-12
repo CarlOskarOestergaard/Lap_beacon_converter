@@ -51,7 +51,7 @@ long delta = 0;
 
 
 // Debug ON/OFF
-int CSV = 1;                                         // Enables serial.print to print in CSV format
+int CSV = 0;                                         // Enables serial.print to print in CSV format
 
 int i = 0;
 
