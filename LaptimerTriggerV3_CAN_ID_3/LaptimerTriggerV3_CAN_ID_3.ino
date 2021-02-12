@@ -40,7 +40,7 @@ int beaconPin = 1;
 //Timer for get VESC UART
 long interval           = 20;
 long interval_LED       = 1000;
-long interval_beacon       = 20;
+long interval_beacon    = 20;
 long interval_100ms     = 100;
 
 long currentMillis      = 0;
@@ -51,7 +51,7 @@ long delta = 0;
 
 
 // Debug ON/OFF
-int CSV = 0;                                         // Enables serial.print to print in CSV format
+int CSV = 1;                                         // Enables serial.print to print in CSV format
 
 int i = 0;
 

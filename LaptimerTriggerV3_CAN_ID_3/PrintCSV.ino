@@ -1,6 +1,5 @@
 void PrintCSV()
 {
-
   Serial.print(millis());
   Serial.print(",");
   Serial.print(msg0);
